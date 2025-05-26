@@ -12,8 +12,9 @@
         compatible = "zmk,combos";
 
         jk_apostrophe {
-            bindings = <&none>;
+            bindings = <&kp APOS>;
             key-positions = <19 20>;
+            slow-release;
         };
     };
 
